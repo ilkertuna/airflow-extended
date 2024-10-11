@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/airflow-extended.iml
+/markdown.xml
+/modules.xml
+/vcs.xml
