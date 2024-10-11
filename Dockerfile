@@ -14,4 +14,5 @@ RUN pip install apache-airflow[${AIRFLOW_EXTRAS}]
 RUN pip install --no-cache-dir "apache-airflow==${AIRFLOW_VERSION}" apache-airflow-providers-apache-spark
 RUN pip install --no-cache-dir pyspark
 RUN pip install --no-cache-dir apache-airflow-providers-amazon
+RUN pip install --no-cache-dir boto3
 RUN pip install --no-cache-dir airflow-clickhouse-plugin[pandas]
